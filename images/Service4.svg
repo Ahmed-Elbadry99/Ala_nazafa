@@ -1,0 +1,79 @@
+<svg width="126" height="82" viewBox="0 0 126 82" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0.5 53H125.64V77C125.64 79.7614 123.401 82 120.64 82H5.5C2.73858 82 0.5 79.7614 0.5 77V53Z" fill="#2BAAE0"/>
+<path d="M26.1269 2.75784C26.9825 1.06773 28.7199 0.00631581 30.6142 0.0163131L97.6539 0.370112C99.5844 0.3803 101.336 1.50086 102.155 3.24901L125.638 53.3774H0.5L26.1269 2.75784Z" fill="#BDE4F6"/>
+<path d="M28.7674 4.33825C29.6174 2.63006 31.3655 1.55453 33.2734 1.56584L94.8296 1.93078C96.77 1.94228 98.5284 3.07536 99.3407 4.83753L117.733 44.7372C119.26 48.0501 116.84 51.8304 113.193 51.8304H13.2077C9.49493 51.8304 7.07722 47.9268 8.73125 44.6029L28.7674 4.33825Z" fill="#0C4F89"/>
+<mask id="mask0_139_4468" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="1" width="111" height="51">
+<path d="M28.7674 4.33825C29.6174 2.63006 31.3655 1.55453 33.2734 1.56584L94.8296 1.93078C96.77 1.94228 98.5284 3.07536 99.3407 4.83753L117.733 44.7372C119.26 48.0501 116.84 51.8304 113.193 51.8304H13.2077C9.49493 51.8304 7.07722 47.9268 8.73125 44.6029L28.7674 4.33825Z" fill="#0C4F89"/>
+</mask>
+<g mask="url(#mask0_139_4468)">
+<g id="Repeat group 1_inner" data-figma-trr="l9u1.5-0f">
+<ellipse cx="30.5416" cy="5.16677" rx="3.07956" ry="6.03396" fill="#2BAAE0"/>
+</g>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(9.23867)"/>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(18.4773)"/>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(27.716)"/>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(36.9547)"/>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(46.1933)"/>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(55.432)"/>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(64.6707)"/>
+<use xlink:href="#Repeat%20group%201_inner" transform="translate(73.9093)"/>
+<g id="Repeat group 2_inner" data-figma-trr="l11u1.5-0f">
+<ellipse cx="25.1511" cy="15.6258" rx="3.07956" ry="6.03396" fill="#2BAAE0"/>
+</g>
+<use xlink:href="#Repeat%20group%202_inner" transform="translate(9.23867)"/>
+<use xlink:href="#Repeat%20group%202_inner" transform="translate(18.4773)"/>
+<use xlink:href="#Repeat%20group%202_inner" transform="translate(27.716)"/>
+<use xlink:href="#Repeat%20group%202_inner" transform="translate(36.9547)"/>
+<use xlink:href="#Repeat%20group%202_inner" transform="translate(46.1933)"/>
+<use xlink:href="#Repeat%20group%202_inner" transform="translate(55.432)"/>
+<use xlink:href="#Repeat%20group%202_inner" transform="translate(64.6707)"/>
+<use xlink:href="#Repeat%20group%202_inner" transform="translate(73.9093)"/>
+<use xlink:href="#Repeat%20group%202_inner" transform="translate(83.148)"/>
+<use xlink:href="#Repeat%20group%202_inner" transform="translate(92.3867)"/>
+<g id="Repeat group 3_inner" data-figma-trr="l12u1.5-0f">
+<ellipse cx="19.7618" cy="26.0847" rx="3.07956" ry="6.03396" fill="#2BAAE0"/>
+</g>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(9.23867)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(18.4773)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(27.716)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(36.9547)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(46.1933)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(55.432)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(64.6707)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(73.9093)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(83.148)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(92.3867)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(101.625)"/>
+<g id="Repeat group 4_inner" data-figma-trr="l13u1.5-0f">
+<ellipse cx="14.3733" cy="36.5432" rx="3.07956" ry="6.03396" fill="#2BAAE0"/>
+</g>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(9.23867)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(18.4773)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(27.716)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(36.9547)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(46.1933)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(55.432)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(64.6707)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(73.9093)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(83.148)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(92.3867)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(101.625)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(110.864)"/>
+<g id="Repeat group 5_inner" data-figma-trr="l14u1.5-0f">
+<ellipse cx="8.98373" cy="47.0022" rx="3.07956" ry="6.03396" fill="#2BAAE0"/>
+</g>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(9.23867)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(18.4773)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(27.716)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(36.9547)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(46.1933)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(55.432)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(64.6707)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(73.9093)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(83.148)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(92.3867)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(101.625)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(110.864)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(120.103)"/>
+</g>
+</svg>

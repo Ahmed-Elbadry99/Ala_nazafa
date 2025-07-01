@@ -30,8 +30,9 @@
   --color-black2: #333333;
   --color-Primary1: rgba(12, 79, 137, 1);
   --color-Primary2: rgba(43, 169, 224, 1);
-  --color-Primary3: #F6EDF0;
-  --color-gray: rgba(224, 224, 224, 1);
+  
+  --color-Primary3: rgba(166, 219, 242, 1);
+  --color-gray: #EEEFF0;
   --color-Primary5: #FFDC16;
   --color-border: rgba(0, 47, 92, 1);
 }
