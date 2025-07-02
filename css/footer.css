@@ -1,16 +1,32 @@
+.footer {
+ 
+  overflow-x: hidden; /* متقصش حاجة من فوق */
+  padding-bottom: 0;
+}
+
 footer{
 
     padding: 50px;
     background-color: var(--color-Primary2);
     position: relative;
+   
 }
 
-
-
+footer::after{
+   content: "";
+    width: 110%;
+    height: 165px;
+    background-color: var(--color-Primary2);
+    position: absolute;
+    top: 0;
+    right: -5px;
+    transform: rotate(2deg);
+    z-index: -1;
+}
 footer .main-container{
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 130px;
 }
 
 .top-fooer ,
@@ -20,19 +36,35 @@ footer .main-container{
     align-items: center;
     position: relative;
     z-index: 5;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 
-.shape1{
+.shape1,
+.shape2{
     content: "";
     width: 110%;
-    height: 180px;
+    height: 165px;
     background-color: var(--color-Primary1);
     position: absolute;
     top: 0;
     right: -5px;
     transform: rotate(-2deg);
     z-index: 1;
+}
+
+.shape2{
+        background-color: rgba(43, 169, 224, 0.2);
+
+    transform: rotate(0deg);
+    z-index: 2;
+    box-shadow: 2px 2px .5px -2px rgba(255, 255, 255, 0.5),
+                0 2px 8px 2px rgba(12, 79, 137, 0.1),
+                -2px -2px .5px -2px rgba(255, 255, 255, 0.5),
+                0 0 8px 0 rgba(12, 79, 137, 0.5) ; 
+
+    backdrop-filter: blur(6px);
 }
 .footer-contact,
 .footer-contact ul{
@@ -56,3 +88,30 @@ footer .main-container{
     color: var(--color-white);
     font-size: 20px;
 }
+
+.footer-contact li a ,
+.footer-contact li a i{
+
+
+  font-size: 20px;
+  transition: all .3s ease;
+  
+
+}
+
+
+.footer-contact li a img{
+ transition: filter 0.3s ease;
+}
+.footer-contact li a img:hover{
+filter: brightness(0) saturate(100%) invert(21%) sepia(69%) saturate(727%) hue-rotate(170deg) brightness(91%) contrast(92%);
+
+}
+
+
+.footer-contact li a:hover{
+  color: var(--color-Primary1);
+    
+}
+
+

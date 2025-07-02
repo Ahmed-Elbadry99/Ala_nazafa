@@ -61,6 +61,10 @@
   z-index: 1;
 }
 
+.about-us-image .about-logo img{
+   animation:  tada 2.5s  infinite ;
+}
+
 /* .about-us-image .about-logo::before {
   content: "";
   position: absolute;
@@ -214,10 +218,15 @@
   object-fit: cover;
 }
 .customer-card{
-  height: 250px;
+  height: 100%;
   position: relative;
+
+
 }
 
+.our-customers .item{
+  height: 370px !important;
+}
 
 .customer-card .customer-card-bg{
   position: absolute;
@@ -227,14 +236,15 @@
   z-index: -1;
 }
 .customer-card .customer-card-bg svg {
-  width: 100%;
+  /* width: 100%;
   height: 300px;
   object-fit: cover;
+} */
 }
 
 .customer-card-text   {
   color: white;
-  padding: 43px;
+  padding: 0 65px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,20 +263,20 @@
   background-color: var(--color-Primary2);
 } */
 
-.owl-customers .owl-item:nth-child(odd) path.colmn {
-  fill: var(--color-Primary1);
-}
-.owl-customers .owl-item:nth-child(odd) path.fs {
-  fill: var(--color-Primary2);
-}
+.owl-customers .owl-item:nth-child(odd)  {
+  background-image: url("../images/customer\ Mask.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
-.owl-customers .owl-item:nth-child(odd) path {
-  stroke: var(--color-Primary2);
 }
-/* .owl-customers .owl-item:nth-child(odd) svg{
-  opacity: .5;
-} */
+.owl-customers .owl-item:nth-child(even){
 
+  background-image: url("../images/customer\ Mask1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
 
 /* contact */

@@ -1,0 +1,258 @@
+
+@media (max-width : 1024px){
+
+    .header-content .right-img,
+    .header-content .left-img{
+         width: 200px;
+        height: 270px;
+    }
+
+    .header-content p{
+        font-size: 60px;
+    }
+
+    .header-content #myParagraph span{
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+
+    
+  nav .nav-list ,
+  .header-nav .menu-icon{
+    display: none;
+  }
+
+  .menu-responsive .nav-list {
+    display: flex !important;
+  }
+
+  section.responsive-menu.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 30px 0;
+    background-color: var(--color-Primary3);
+    overflow: scroll;
+  }
+  section.responsive-menu.show .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  section.responsive-menu.show .nav-list li {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  section.responsive-menu.show .nav-list li.active {
+    background-color: var(--color-Primary1);
+    color: var(--color-white  );
+  }
+  section.responsive-menu.show .nav-list li.active a {
+    color: var(--color-white);
+  }
+  section.responsive-menu.show .nav-list li a {
+    font-size: 16px;
+    color: var(--color-Primary1);
+    font-weight: 600;
+  }
+  .responsive-menu .menu-icon{
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+  }
+
+  .show-menu {
+    display: flex;
+  }
+
+  .show-menu i{
+    color: white;
+  }
+
+  .contact-us form{
+    width: 100%;
+  }
+
+}
+
+
+
+@media (max-width : 768px){
+
+    .header-content .right-img,
+    .header-content .left-img{
+         width: 150px;
+        height: 200px;
+    }
+
+    .header-content p{
+        font-size: 50px;
+    }
+
+    .header-content #myParagraph span{
+        font-size: 32px;
+    }
+
+    .header-content label,
+    .sub-title{
+        font-size: 13px;
+    }
+
+    .main-btn{
+        font-size: 15px;
+    }
+
+
+
+     /* about */
+    .section-title{
+        font-size: 30px;
+    }
+    .about-us .about-us-text h2 {
+    width: 220px;
+    }
+
+    
+    .about-us .about-us-text p{
+        font-size: 16px;
+    }
+
+    .about-us-image .row .col-6 {
+        height: 170px;
+    }
+
+    .about-us-image .about-logo{
+        width: 170px;
+        height: 170px;
+    }
+
+    /* customer */
+
+    .customer-card-text{
+        padding: 0 50px;
+    }
+
+    .customer-card-text p{
+        font-size:12px;
+    }
+
+
+    .owl-customers .owl-item:nth-child(even),
+    .owl-customers .owl-item:nth-child(odd){
+        background-size: 110% 100%;
+    }
+
+    .our-customers .item {
+    height: 300px !important;
+    }
+
+
+    /* footer */
+
+    .top-fooer, .middle-footer{
+        flex-direction: column;
+    }
+
+    .top-fooer{
+        align-items: start;
+    }
+    
+    .middle-footer{
+        justify-content: center;
+    }
+}
+
+@media (max-width : 600px){
+    .our-customers .item {
+    height:440px !important;
+    }
+
+}
+
+
+@media (max-width : 576px){
+
+    .header-content .right-img,
+    .header-content .left-img{
+         width: 120px;
+        height: 180px;
+    }
+
+    .header-content p{
+        font-size: 45px;
+    }
+
+    .header-content #myParagraph span{
+        font-size: 28px;
+    }
+
+    .top-fooer{
+        justify-content: start;
+        
+    }
+
+
+
+   
+}
+
+
+
+
+@media (max-width : 425px){
+
+    .header-content .right-img,
+    .header-content .left-img{
+         width: 120px;
+        height: 180px;
+    }
+
+    .header-content p{
+        font-size: 45px;
+    }
+
+    .header-content #myParagraph span{
+        font-size: 28px;
+    }
+
+
+}
+
+
+
+
+@media (max-width : 350px){
+
+    .header-content .right-img,
+    .header-content .left-img{
+         width: 100px;
+        height: 160px;
+    }
+
+    .header-content p{
+        font-size: 40px;
+    }
+
+    .header-content #myParagraph span{
+        font-size: 24px;
+    }
+
+    .our-customers .item {
+    height: 300px !important;
+    }
+
+
+}
+
+
+
