@@ -42,21 +42,40 @@ p.innerHTML = words.join(' ');
       margin: 20,
       responsive: true,
       rtl:true,
-      autoplay: false,
+      autoplay: true,
       autoplayTimeout: 2000,
       nav: false,
       dots: false,
       autoplayHoverPause: true,
       responsive: {
         0: {
-          stagePadding: 10,
+          stagePadding: 30,
           nav : false,
-          items: 2,
+          items: 1,
 
         },
+        450: {
+          items: 1,
+          stagePadding: 70,
+          nav : false,
+
+        },
+
         600: {
-          items: 2.5,
-          stagePadding: 0,
+          items: 2,
+          stagePadding: 50,
+          nav : false,
+
+        },
+         768: {
+          items: 2,
+          stagePadding: 120,
+          nav : false,
+
+        },
+        900: {
+          items: 2,
+          stagePadding: 150,
           nav : false,
 
         },
@@ -83,7 +102,7 @@ p.innerHTML = words.join(' ');
       margin: 10,
       responsive: true,
       rtl:true,
-      autoplay: false,
+      autoplay: true,
       autoplayTimeout: 2000,
       nav: false,
       dots: false,

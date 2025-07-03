@@ -33,7 +33,7 @@
   
   --color-Primary3: rgba(166, 219, 242, 1);
   --color-gray: #EEEFF0;
-  --color-Primary5: #FFDC16;
+  --color-Primary5: rgba(0, 47, 92, 1);
   --color-border: rgba(0, 47, 92, 1);
 }
 
@@ -91,10 +91,7 @@ input,
 button {
   font-family: "font_main";
 }
-input::placeholder{
-  font-family: "font_main" !important;
-  font-size: 16px !important;
-}
+
 h1 {
   font-size: 34px;
 

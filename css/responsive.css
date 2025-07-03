@@ -15,6 +15,17 @@
         font-size: 40px;
     }
 
+
+    .box-msg{
+    position: absolute;
+    width: 200px;
+    height: 160px;
+    right: -200px;
+    font-size: 22px;
+    
+    
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -81,7 +92,28 @@
 
   .contact-us form{
     width: 100%;
+    margin-top: 150px
+
   }
+  .box-msg{
+    top: -140px;
+    right: 60%;
+    transform: translateX(60%);
+    height: 120px;
+    font-size: 18px;
+  }
+
+
+  /* footer */
+
+  /* .shape1, .shape2{
+    height: 230px;
+  }
+
+
+  footer .main-container{
+    gap: 100px
+  } */
 
 }
 
@@ -136,6 +168,10 @@
         height: 170px;
     }
 
+    .about-us-image .row{
+        width: 100%;
+    }
+
     /* customer */
 
     .customer-card-text{
@@ -153,7 +189,7 @@
     }
 
     .our-customers .item {
-    height: 300px !important;
+    height: 300px ;
     }
 
 
@@ -170,12 +206,55 @@
     .middle-footer{
         justify-content: center;
     }
+
+
+  .shape1, .shape2{
+    height: 325px;
+  }
+
+
+  footer .main-container{
+    gap: 80px
+  }
+
+  .footer-contact .contact-info span,
+  .footer-contact li a, .footer-contact li a i,
+  .footer-contact .contact-info p{
+    font-size: 16px;
+  }
+
+  
+.fooer-logo{
+    width: 170px;
+    height: 55px;
+}
+
+    .section-title{
+        width: 250px;
+    }
 }
 
 @media (max-width : 600px){
     .our-customers .item {
-    height:440px !important;
+    height:440px ;
     }
+
+
+     .our-customers,
+        .our-services-header{
+            padding: 30px 0 0;
+        }
+
+
+        .end-footer{
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
+        .end-footer p{
+            text-align: center;
+        }
+
 
 }
 
@@ -202,6 +281,30 @@
     }
 
 
+    .about-us-image{
+        padding: 25px 12px;
+    }
+
+
+    .box-msg{
+    top: -110px;
+    right: 70%;
+    transform: translateX(70%);
+    height: 90px;
+    font-size: 18px;
+    width: 150px;
+    font-size: 17px;
+  }
+
+  .header-content .left-img,
+  .header-content .right-img{
+    bottom: 3%;
+    top: unset;
+    
+  }
+  .header-content .right-img{
+        transform: rotate(10deg);
+  }
 
    
 }
@@ -225,8 +328,42 @@
         font-size: 28px;
     }
 
-
+      
+.fooer-logo{
+    width: 155px;
+    height: 45px;
 }
+
+    .about-us-image .row .col-6 {
+        height: 120px;
+    }
+
+
+        .about-us-image .about-logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .section-title{
+        width: 200px;
+        font-size: 24px;
+    }
+
+    
+        .our-customers .item {
+            height: 330px;
+        }
+
+
+            .main-btn {
+        font-size: 14px;
+        width: 130px;
+    }
+       
+}
+
+
+
 
 
 
@@ -242,14 +379,21 @@
     .header-content p{
         font-size: 40px;
     }
-
+    
     .header-content #myParagraph span{
         font-size: 24px;
     }
-
-    .our-customers .item {
-    height: 300px !important;
+    
+            .about-us-image .row .col-6 {
+            height: 100px;
+        }
+    
+    .our-customers .item ,
+    .owl-services .service-card{
+    height: 300px ;
     }
+
+
 
 
 }
