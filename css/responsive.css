@@ -26,6 +26,13 @@
     
     }
 
+    .box-msg {
+        top: 70%;
+    }
+    .step-img{
+        height: 440px;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -92,7 +99,7 @@
 
   .contact-us form{
     width: 100%;
-    margin-top: 150px
+    margin-top: 210px
 
   }
   .box-msg{
@@ -104,16 +111,30 @@
   }
 
 
-  /* footer */
+  .box-msg .plane {
+    content: "";
+    position: absolute;
+    right: -117%;
+    top: 34%;
+    transform: translateY(-50%);
+}
 
-  /* .shape1, .shape2{
-    height: 230px;
-  }
 
 
-  footer .main-container{
-    gap: 100px
-  } */
+/*  */
+
+
+.work-steps .work-step .col-lg-5 {
+    display: flex;
+    justify-content: center;
+
+}
+.work-steps .work-step .col-lg-5 .step-img{
+    width: 80%;
+}
+
+
+
 
 }
 
@@ -193,6 +214,33 @@
     }
 
 
+
+
+    /*  */
+
+
+     .box-msg{
+    top: -140px;
+    right: 80%;
+    transform: translateX(80%);
+    height: 120px;
+    font-size: 18px;
+  }
+
+
+  .box-msg .plane {
+    content: "";
+    position: absolute;
+    right: -100%;
+    top: 34%;
+    transform: translateY(-50%);
+}
+
+.box-msg .plane svg{
+    width: 200px;
+    height: 165px;
+}
+
     /* footer */
 
     .top-fooer, .middle-footer{
@@ -231,6 +279,13 @@
 
     .section-title{
         width: 250px;
+    }
+
+
+    /*  */
+    .step-img .img-conainer{
+        width: 320px;
+        height: 320px;
     }
 }
 
@@ -288,13 +343,26 @@
 
     .box-msg{
     top: -110px;
-    right: 70%;
-    transform: translateX(70%);
+    right: 90%;
+    transform: translateX(90%);
     height: 90px;
     font-size: 18px;
     width: 150px;
     font-size: 17px;
   }
+
+   .box-msg .plane {
+    content: "";
+    position: absolute;
+    right: -104%;
+    top:10%;
+    transform: translateY(-50%);
+}   
+
+.box-msg .plane svg{
+    width: 160px;
+    height: 130px;
+}
 
   .header-content .left-img,
   .header-content .right-img{
@@ -359,6 +427,34 @@
         font-size: 14px;
         width: 130px;
     }
+
+        .contact-us form {
+        width: 100%;
+        margin-top: 180px;
+    }
+
+    .box-msg {
+        top: -110px;
+        right: 90%;
+        transform: translateX(90%);
+        height: 90px;
+        font-size: 18px;
+        width: 129px;
+        font-size: 14px;
+    }
+    
+   .box-msg .plane {
+    content: "";
+    position: absolute;
+    right: -110%;
+    top:10%;
+    transform: translateY(-50%);
+}   
+
+.box-msg .plane svg{
+    width: 140px;
+    height: 110px;
+}
        
 }
 

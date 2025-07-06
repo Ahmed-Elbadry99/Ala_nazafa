@@ -8,6 +8,10 @@ header{
   
 
 }
+
+header.pages{
+  height: auto;
+}
 header::after{
     content: "";
     background-image: url("../images/Back_head.png");
