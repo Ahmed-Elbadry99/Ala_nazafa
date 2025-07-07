@@ -3,13 +3,36 @@
     .step-img{
         height: 430px;
     }
+
+
+    .our-customers .item {
+    height: 320px;
+}
 }
 
-@media (max-width : 1300px){
+@media (max-width : 1200px){
 
     .step-img{
         height: 370px;
     }
+
+    .customer-card-text {
+    color: white;
+    padding: 80px 85px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    }
+
+        .our-customers .item {
+        height: 420px;
+    }
+
+
+    
 }
 @media (max-width : 1024px){
 
@@ -45,6 +68,8 @@
         height: 300px;
     }
 
+
+    
 }
 
 @media (max-width: 992px) {
@@ -109,6 +134,24 @@
     color: white;
   }
 
+
+
+
+  .customer-card-text {
+    color: white;
+    padding: 90px 50px 90px 60px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    }
+
+        .our-customers .item {
+        height: 420px;
+    }
+
   .contact-us form{
     width: 100%;
     margin-top: 210px
@@ -133,6 +176,9 @@
 
 
 
+
+
+
 /*  */
 
 
@@ -141,6 +187,20 @@
     justify-content: center;
 
 }
+  .customer-card-text p{
+        font-size:14px;
+
+        
+     -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    }
 
 
 
@@ -257,12 +317,42 @@
 
     /* customer */
 
-    .customer-card-text{
-        padding: 0 50px;
+    
+  .customer-card-text {
+    color: white;
+    padding: 35px 40px 90px 45px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
     }
 
+        .our-customers .item {
+        height: 270px;
+    }
+
+
+    .customer-card-text h3{
+        font-size: 16px;
+    }
+    .customer-card-text h4{
+        font-size: 14px;
+    }
     .customer-card-text p{
         font-size:12px;
+
+        
+     -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
     }
 
 
@@ -271,10 +361,7 @@
         background-size: 110% 100%;
     }
 
-    .our-customers .item {
-    height: 300px ;
-    }
-
+   
 
 
 
@@ -362,11 +449,28 @@
 
 
 
-@media (max-width : 600px){
+@media (max-width : 605px){
     .our-customers .item {
-    height:440px ;
+    height:400px ;
     }
 
+
+
+    .customer-card-text {
+        color: white;
+        padding: 67px 60px 90px 87px;
+
+    }
+
+    .customer-card-text h3{
+        font-size: 16px;
+    }
+    .customer-card-text h4{
+        font-size: 15px;
+    }
+    .customer-card-text p{
+        font-size: 14px;
+    }
 
      .our-customers,
         .our-services-header{
@@ -409,6 +513,24 @@
     .header-content #myParagraph span{
         font-size: 28px;
     }
+
+
+
+     .our-customers .item {
+    height:380px ;
+    }
+
+
+
+    .customer-card-text {
+        color: white;
+        padding: 67px 60px 90px 87px;
+
+    }
+
+   
+
+
 
     .top-fooer{
         justify-content: start;
@@ -486,6 +608,33 @@
 }
 
 
+@media (max-width : 500px){
+
+
+     .our-customers .item {
+    height:330px ;
+    }
+
+
+
+    .customer-card-text {
+        color: white;
+        padding: 67px 60px 90px 87px;
+
+    }
+
+    .customer-card-text h3{
+        font-size: 16px;
+    }
+    .customer-card-text h4{
+        font-size: 15px;
+    }
+    .customer-card-text p{
+        font-size: 14px;
+    }
+
+}
+
 
 
 @media (max-width : 425px){
@@ -502,6 +651,43 @@
 
     .header-content #myParagraph span{
         font-size: 28px;
+    }
+
+
+
+
+     .our-customers .item {
+    height:400px ;
+    }
+
+
+
+    .customer-card-text {
+        color: white;
+        padding: 50px 40px 90px 50px;
+
+    }
+
+    .customer-card-text h3{
+        font-size: 14px;
+    }
+    .customer-card-text h4{
+        font-size: 13px;
+    }
+    .customer-card-text p{
+        font-size: 12px;
+
+                -webkit-line-clamp: 4;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+        text-overflow: ellipsis;
+        white-space: normal;
+        word-wrap: break-word;
+        overflow: hidden;
+        line-height: 2;
+
     }
 
       
@@ -574,11 +760,27 @@
 
 
 
+@media (max-width : 375px){
+
+     .our-customers .item {
+    height:270px ;
+    }
+
+
+
+    .customer-card-text {
+        color: white;
+        padding: 50px 45px 60px 60px;
+
+
+    }
+}
 
 
 
 
 @media (max-width : 350px){
+
 
     .header-content .right-img,
     .header-content .left-img{
@@ -597,11 +799,49 @@
             .about-us-image .row .col-6 {
             height: 100px;
         }
+
     
-    .our-customers .item ,
     .owl-services .service-card{
     height: 300px ;
     }
+ .our-customers .item {
+   
+    height: 240px ;
+    }
+
+
+    
+
+
+    .customer-card-text {
+        color: white;
+        padding:40px 50px 15px 60px
+
+    }
+
+    .customer-card-text h3{
+        font-size: 13px;
+    }
+    .customer-card-text h4{
+        font-size: 12px;
+    }
+    .customer-card-text p{
+        font-size: 10px;
+
+                -webkit-line-clamp: 4;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+        text-overflow: ellipsis;
+        white-space: normal;
+        word-wrap: break-word;
+        overflow: hidden
+    }
+
+
+
+
 
 
 
