@@ -314,7 +314,7 @@
   flex-direction: row-reverse;
 }
 
-.contact-us form{
+form{
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -327,14 +327,14 @@
   align-items: center;
   position: relative;
 }
-.contact-us form .form-field{
+form .form-field{
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 100%;
 }
-.contact-us form .form-field input,
-.contact-us form .form-field textarea{
+ form .form-field input,
+form .form-field textarea{
   width: 100%;
   padding: 10px;
   border-radius: 10px;
@@ -344,18 +344,18 @@
   font-family: "font_semi" ;
 
 }
-.contact-us form .form-field input:focus,
-.contact-us form .form-field textarea:focus{
+ form .form-field input:focus,
+ form .form-field textarea:focus{
   border: 1px solid var(--color-Primary2);
   outline: none;
 }
-.contact-us form .form-field textarea{
+ form .form-field textarea{
   height: 150px;
   resize: none;
 }
 
-.contact-us form .form-field input::placeholder,
-.contact-us form .form-field textarea::placeholder {
+ form .form-field input::placeholder,
+ form .form-field textarea::placeholder {
   color: #ACAFB5;
   font-size: 14px;
   font-family: "font_semi";
@@ -366,7 +366,7 @@ input::placeholder{
   font-size: 14px;
   font-family: "font_semi";
 }
-.contact-us form button{
+ form button{
   text-align: center;
   display: flex;
   justify-content: center;
@@ -374,6 +374,9 @@ input::placeholder{
   gap: 10px;
 }
 
+form label{
+  color: #121212;
+}
 .main-btn:hover svg{
   background-color: var(--color-Primary1);
   border-radius: 50%;
@@ -857,4 +860,57 @@ input::placeholder{
 .our-services-page{
   margin: 40px 0;
   
+}
+
+
+/* contact page */
+
+.contact-page .our-services-header{
+  align-items: start;
+}
+.section-title.contact-header{
+  width: fit-content;
+}
+
+.contact-page form{
+  box-shadow: none;
+  position: relative;
+}
+
+.contact-page form::after{
+  position: absolute;
+  content: "";
+  width: 140%;
+  height: 100%;
+  border: 1px dashed var(--color-Primary3);
+  border-radius: 15px;
+  right: 0;
+  z-index: -1;
+  
+}
+
+.contact-page .contact-details-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-details{
+  background-color: var(--color-Primary2);
+  color: white;
+  height: 80%;
+  border-radius: 15px;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.contact-details .menu-contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
 }
