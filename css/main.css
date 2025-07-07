@@ -833,6 +833,7 @@ form label{
 
 .step-text .step-header p{
   font-size: 20px;
+  padding: 3.5px;
 
 }
 .step-text .step-header p:nth-child(1){
@@ -905,6 +906,7 @@ form label{
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+  box-shadow:  20px 20px 4px 0 rgba(0, 0, 0, 0.15);
 
 }
 
