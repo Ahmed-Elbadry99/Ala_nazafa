@@ -19,6 +19,11 @@
 }
 
 @font-face {
+  font-family: "font_regular";
+  src: url("../fonts/Cocon®\ Next\ Arabic-Regular.otf");
+}
+
+@font-face {
   font-family: "inter";
   src: url("../fonts/Cocon®\ Next\ Arabic-Bold.otf");
 }
@@ -33,6 +38,7 @@
   
   --color-Primary3: rgba(166, 219, 242, 1);
   --color-gray: #EEEFF0;
+  --color-gray-text: rgba(97, 98, 100, 1);
   --color-Primary5: rgba(0, 47, 92, 1);
   --color-border: rgba(0, 47, 92, 1);
 }
@@ -61,6 +67,17 @@ html,
 body {
   height: 100%;
 }
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+/* main.follow{
+  display: block
+} */
 
 *:focus {
   outline: none;
@@ -160,6 +177,23 @@ img,
     border: 1px solid var(--color-border);
 }
 
+
+.main-btn2{
+  color: white;
+  background: var(--color-Primary2);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid transparent;
+  width: fit-content;
+}
+
+.main-btn2:hover{
+  background: white;
+  color: var(--color-Primary2);
+  border: 1px solid var(--color-Primary2);
+}
 
 body {
   font-family: "font_main";

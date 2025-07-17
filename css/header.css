@@ -28,6 +28,44 @@ header::after{
 
 
 }
+header.pages.order-search::after{
+  content: none;
+}
+header.pages.order-search .bg-bubble::after{
+  content: "";
+  background-image: url("../images/mashbak-search.svg");
+  background-repeat: repeat;
+  background-position: 0;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50000px;
+  z-index: -1;
+  animation: moveTop 450s linear infinite ; 
+  opacity: .1;
+
+
+}
+header.pages.order-search{
+  height: 100vh;
+}
+
+header.pages.order-search .bg-bubble{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 140vh;
+  border-radius: 50%;
+  background:  linear-gradient(0, rgba(43, 169, 224, 1) 0%, rgba(255, 255, 255, 0)  100%);
+  ;
+  top:0;
+  transform: translateY(-50%);
+  right: 0;
+  z-index: -2;
+  overflow: hidden;
+}
 @keyframes moveTop {
   0% {
     background-position-y: 0;
@@ -131,7 +169,7 @@ height: 100%;
   color: white;
 }
 
-.header-nav .menu ul li .soda{
+.soda{
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -145,7 +183,7 @@ height: 100%;
   
 
 }
-.header-nav .menu ul li .soda img{
+.soda img{
   width: 100%;
   height: 100%;
 
@@ -572,5 +610,41 @@ height: 100%;
   text-align: center;
 }
 
+header .search-bar{
+  margin-top: 150px;
+}
+
+header .search-bar,
+header .search-bar form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+header .search-bar h2{
+  font-size: 24px;
+  color: white;
+}
+
+header .search-bar input{
+  height: 40px;
+  width: 400px;
+  border-radius: 50px;
+  padding: 10px 45px 10px ;
+  border: none;
+}
+
+header .search-bar .input-control{
+  position: relative;
+}
 
 
+header .search-bar .input-control img{
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
