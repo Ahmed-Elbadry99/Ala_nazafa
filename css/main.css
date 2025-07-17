@@ -120,6 +120,7 @@
 
 /* services */
 
+
 .our-services-header{
   display: flex;
   flex-direction: column;
@@ -324,7 +325,7 @@
   display: flex;
   flex-direction: row-reverse;
 }
-
+.contact-page form,
 .contact-us form{
   display: flex;
   flex-direction: column;
@@ -338,12 +339,15 @@
   align-items: center;
   position: relative;
 }
+.contact-page form .form-field,
 .contact-us form .form-field{
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 100%;
 }
+
+.contact-page form .form-field input,
 .contact-us form .form-field input,
 .contact-us form .form-field textarea{
   width: 100%;
@@ -355,11 +359,15 @@
   font-family: "font_semi" ;
 
 }
+.contact-page form .form-field input:focus
 .contact-us form .form-field input:focus,
  .contact-us form .form-field textarea:focus{
   border: 1px solid var(--color-Primary2);
   outline: none;
 }
+
+
+.contact-page form .form-field textarea,
  .contact-us form .form-field textarea{
   height: 150px;
   resize: none;
@@ -993,7 +1001,8 @@ input::placeholder{
   border-radius: 10px;
   overflow: hidden;
   padding: 15px;
-  border: 1px solid rgba(229, 229, 234, 1)
+  border: 1px solid rgba(229, 229, 234, 1);
+  transition: .3s all;
 }
 
 .blog-details-sidebar-item .row{
@@ -1055,6 +1064,7 @@ input::placeholder{
   display: flex;
   flex-direction: column;
   gap: 10px;
+  
 }
 
 
@@ -1094,6 +1104,8 @@ input::placeholder{
 
 
 /* oeder */
+
+
 
 .order-progress{
   display: flex;
@@ -1631,6 +1643,14 @@ background-color: var(--color-Primary2);
   font-size: 18px;
 }
 
+
+.form-action{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 50px 0;
+  justify-content: center;
+}
 
 /* follow-order-page */
 

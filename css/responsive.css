@@ -991,7 +991,8 @@
         }
 
 
-            .main-btn {
+            .main-btn,
+            .main-btn3 {
         font-size: 14px;
         width: 130px;
     }
@@ -1116,6 +1117,14 @@
     .about-us-img-container .about-logo {
         width: 125px;
         height: 125px;
+    }
+
+    .service-child{
+        padding: 10px;
+    }
+
+    .services-cards{
+        width: 100%;
     }
 }
 
