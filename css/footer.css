@@ -74,6 +74,10 @@ footer .main-container{
     gap: 15px;
 }
 
+.footer-contact ul{
+    flex-wrap: wrap;
+}
+
     .footer-contact .contact-info{
         display: flex;
         flex-direction: column;
