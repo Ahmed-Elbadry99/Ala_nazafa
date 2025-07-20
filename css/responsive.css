@@ -300,10 +300,13 @@
         height: 240px;
     }
     .blog-details-info p,
-    .blog-details-sidebar-item-info h4,
+    
     .blog-details-sidebar-item-info p,
     .blog-info-header-icon span{
         font-size: 16px;
+    }
+    .blog-details-sidebar-item-info h4{
+        font-size: 18px;
     }
 
     .bolg-details .main-btn2{
@@ -649,10 +652,16 @@
       }
 
 
+      .blog-details-sidebar-item:hover {
+        box-shadow: none;
+        border: 1px solid rgba(229, 229, 234, 1);
+        transform: translateY(0px);
+    }
+
       /* search page */
 
       header.pages.order-search .bg-bubble{
-        height: 100vh;
+        height: 650px;
       }
 
       header.pages.order-search{
@@ -753,10 +762,14 @@
     }
 
     .blogs .blog-details-info p,
-    .blogs .blog-details-sidebar-item-info h4,
+    
     .blogs .blog-details-sidebar-item-info p,
     .blogs .blog-info-header-icon span{
         font-size: 16px;
+    }
+
+    .blogs .blog-details-sidebar-item-info h4{
+        font-size: 17px;
     }
 
     .bolg-details .main-btn2{
@@ -915,6 +928,28 @@
         padding: 0 10px;
     }
 
+
+    /* search page */
+
+
+
+    header.pages.order-search .bg-bubble {
+        
+        width: 114%;
+        height: 650px;
+        right: 50%;
+        transform: translateY(-50%) translateX(50%);
+       
+    }
+
+    header .search-bar {
+        margin: 0px auto 60px;
+    }
+
+    header .search-bar input{
+        width: 250px;
+        height: 35px ;
+    }
     
    
 }
@@ -1099,11 +1134,14 @@
 
     .blog-details-sidebar-item-info .blog-info-header-icon span,
     .blog-details-info p,
-    .blog-details-sidebar-item-info h4,
+    
     .blog-details-sidebar-item-info p{
         font-size: 13px;
     }
 
+    .blog-details-sidebar-item-info h4{
+        font-size: 15px;
+    }
 
     .blog-details-sidebar-item-info p{
         
@@ -1174,27 +1212,7 @@
     }
 
 
-    /* search page */
-
-
-
-    header.pages.order-search .bg-bubble {
-        
-        width: 114%;
-        height: 100vh;
-        right: 50%;
-        transform: translateY(-50%) translateX(50%);
-       
-    }
-
-    header .search-bar {
-        margin: 0px auto 60px;
-    }
-
-    header .search-bar input{
-        width: 250px;
-        height: 35px ;
-    }
+    
 
     
 }
@@ -1230,7 +1248,7 @@
 
 
     .blog-details-sidebar-item{
-        height: 150px;
+        height: 175px;
     }
 
     .blog-details-sidebar-item-info .blog-info-header-icon span,
@@ -1259,7 +1277,7 @@
      header.pages.order-search .bg-bubble {
         
         width: 114%;
-        height: 90vh;
+        height: 600px;
         right: 50%;
         transform: translateY(-50%) translateX(50%);
        
