@@ -454,7 +454,7 @@ height: 100%;
   transition: 0.4s;
   cursor: pointer;
   display: none;
-  background-color: var(--color-Primary1);
+  background: linear-gradient(0, rgba(12, 79, 137, 1) 0%, rgba(43, 169, 224, 1) 100%);
 }
 
 .show-menu:hover {
