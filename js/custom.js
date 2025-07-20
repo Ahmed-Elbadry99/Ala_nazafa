@@ -14,6 +14,12 @@ if (showMenu) {
     document.querySelector('.responsive-menu').classList.remove("show")
     document.querySelector('.overlay').classList.remove("show")
   })
+
+
+  document.querySelector('.remove-mune').addEventListener("click", () => {
+    document.querySelector('.responsive-menu').classList.remove("show")
+    document.querySelector('.overlay').classList.remove("show")
+  })
 }
 
 
