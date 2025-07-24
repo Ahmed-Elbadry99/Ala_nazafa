@@ -138,6 +138,11 @@ $(document).ready(function () {
         // stagePadding: 50,
 
       },
+      2200: {
+        items: 3.5,
+        // stagePadding: 50,
+
+      },
     },
   });
 });

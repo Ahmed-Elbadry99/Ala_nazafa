@@ -1,3 +1,301 @@
+
+
+@media (min-width : 1500px){
+
+
+     
+    .header-nav {
+        padding:  30px 0;
+    }
+
+    .header-nav .logo{
+
+        width: 200px;
+        height: 90px;
+    }  
+    
+    
+    .header-nav .menu ul li a{
+        font-size: 30px;
+    }
+
+    .main-btn{
+        
+        height: 70px;
+        width: 200px;
+        font-size: 30px;
+    }
+
+    .nav-icons a{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .header-content label {
+        font-size: 28px;
+        margin: 30px; 
+        padding: 10px 40px;
+
+    }
+
+    .header-content p {
+        font-size: 100px;
+    }
+
+    .header-content #myParagraph span {
+        font-size: 70px;
+    }
+
+
+    .header-content .right-img,
+    .header-content .left-img {
+        width: 300px;
+        height: 400px;
+    }
+
+
+
+    .sub-title {
+        font-size: 26px;
+    }
+
+    .about-us .about-us-text p {
+        font-size: 30px;
+    }
+
+    .section-title {
+        font-size: 50px;
+    }
+
+    .about-us .about-us-text h2 {
+        width: 300px;
+    }
+
+    .about-us-img-container {
+        width: 480px;
+        height: 500px;
+    }
+
+    .section-title {
+        padding: 10px 15px 10px 55px;  
+        width: 400px;
+    }
+    
+
+    .customer-card-text{
+        padding: 50px 75px;
+    }
+
+    .customer-card-text h3{
+
+        font-size: 24px;
+    }
+
+    .customer-card-text h4{
+
+        font-size: 20px;
+    }
+
+    .customer-card-text p{
+
+        font-size: 18px;
+    }
+
+
+}
+
+@media (min-width : 1600px){
+
+    
+    .header-nav {
+        padding:  40px 0;
+    }
+
+    .header-nav .logo{
+
+        width: 200px;
+        height: 90px;
+    }  
+    
+    
+    .header-nav .menu ul li a{
+        font-size: 30px;
+    }
+
+    .main-btn{
+        
+        height: 70px;
+        width: 200px;
+        font-size: 30px;
+    }
+
+    .nav-icons a{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .header-content label {
+        font-size: 28px;
+        margin: 30px; 
+        padding: 10px 40px;
+
+    }
+
+    .header-content p {
+        font-size: 100px;
+    }
+
+    .header-content #myParagraph span {
+        font-size: 70px;
+    }
+
+
+    .header-content .right-img,
+    .header-content .left-img {
+        width: 360px;
+        height: 450px;
+    }
+
+    .sub-title {
+        font-size: 26px;
+    }
+
+    .about-us .about-us-text p {
+        font-size: 30px;
+    }
+
+    .section-title {
+        font-size: 50px;
+    }
+
+    .about-us .about-us-text h2 {
+        width: 300px;
+    }
+
+    .about-us-img-container {
+        width: 480px;
+        height: 500px;
+    }
+
+    .owl-services .service-card {
+        height: 370px;
+    }
+
+    .section-title {
+        padding: 10px 15px 10px 55px;  
+        width: 400px;
+    }
+
+    .service-text h3 {
+        font-size: 32px;
+    }
+
+    .our-customers .item {
+        height: 515px;
+    }
+
+    .service-text h3 {
+        font-size: 32px;
+    }
+
+    .customer-card-text{
+        padding: 80px 85px;
+    }
+
+    .customer-card-text h3{
+
+        font-size: 30px;
+    }
+
+    .customer-card-text h4{
+
+        font-size: 26px;
+    }
+
+    .customer-card-text p{
+
+        font-size: 22px;
+    }
+
+    .contact-us form label {
+        font-size: 32px;
+    }
+
+    .contact-page form .form-field input::placeholder, .contact-us form .form-field input::placeholder, .contact-us form .form-field textarea::placeholder{
+        font-size: 30px;
+    }
+
+    .footer-contact .contact-info p {
+        font-size: 30px;
+    }
+
+    .footer-contact .contact-info span {
+        font-size: 28px;
+    }
+
+    .footer-contact li a, .footer-contact li a i {
+        font-size: 28px;
+    }
+
+    .fooer-logo {
+        width: 215px;
+        height: 80px;
+    }
+
+    .footer-contact li a img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .end-footer{
+        padding: 30px 0;
+    }
+
+    .end-footer p{
+        font-size: 30px;
+    }
+
+
+
+
+    
+
+}
+
+
+
+
+@media (min-width : 2000px){
+
+    .customer-card-text{
+        padding: 55px 85px;
+    }
+
+    .customer-card-text h3{
+
+        font-size: 32px;
+    }
+
+    .customer-card-text h4{
+
+        font-size: 30px;
+    }
+
+    .customer-card-text p{
+
+        font-size: 24px;
+    }
+
+
+}
+
+
+@media (max-width : 1440px ){
+    
+}
+
 @media (max-width : 1300px){
 
     .step-img{
